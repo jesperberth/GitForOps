@@ -109,3 +109,7 @@ choco install microsoft-windows-terminal
 ### Using Microsoft Store to install Windows Terminal
 
 Search for __Windows Terminal__ click install
+
+Next Lab
+
+[Git init](../lab02/lab2.md)
