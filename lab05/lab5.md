@@ -1,4 +1,4 @@
-# Lab 4 Git add status rm
+# Lab 5 Git add status rm
 
 In this lab we will learn how to add files monitor our status and remove files
 
@@ -205,4 +205,4 @@ git log
 
 Next Lab
 
-[Git commit](../lab05/lab5.md)
+[Git ignore](../lab06/lab6.md)
