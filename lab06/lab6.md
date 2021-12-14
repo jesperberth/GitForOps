@@ -92,4 +92,4 @@ git check-ignore data/* -v
 
 Next Lab
 
-[Git ignore](../lab06/lab6.md)
+[Git branches](../lab07/lab7.md)
