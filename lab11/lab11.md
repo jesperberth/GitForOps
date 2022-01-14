@@ -5,8 +5,7 @@ In this lab we will learn how Git Log works
 ## Table of Contents
 
 - [Pre](#pre)
-- [Task 1 Git Diff](#task-1-git-diff)
-- [Task 2 Git Diff commit commit](#task-2-git-diff-commit-commit)
+- [Task 1 Git Log](#task-1-git-log)
 
 ## Pre
 
