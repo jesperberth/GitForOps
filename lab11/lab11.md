@@ -1,0 +1,87 @@
+# Lab 11 Git Log
+
+In this lab we will learn how Git Log works
+
+## Table of Contents
+
+- [Pre](#pre)
+- [Task 1 Git Diff](#task-1-git-diff)
+- [Task 2 Git Diff commit commit](#task-2-git-diff-commit-commit)
+
+## Pre
+
+Git and windows Terminal must be installed
+
+## Task 1 Git Log
+
+Git Log will show the project history in reversed cronologic order
+
+__In your terminal type:__
+
+```bash
+
+git log
+
+```
+
+![Alt text](pics/001_git_log.png?raw=true "git log")
+
+Adding --graph to our git log command will give a better view on how branches have been merged to our project
+
+__In your terminal type:__
+
+```bash
+
+git log --graph
+
+```
+
+use the spacebar to scroll down, until you see the merged branches
+
+![Alt text](pics/002_git_log_graph.png?raw=true "git log --graph")
+
+git log --oneline will show a oneline summery for all commits, this is usefull when you are looking for the sha1 value
+
+__In your terminal type:__
+
+```bash
+
+git log --oneline
+
+```
+
+![Alt text](pics/003_git_log_oneline.png?raw=true "git log --oneline")
+
+Lets try some other ways of using the log
+
+--since is for a date or you can specify xx time ago
+
+-S String will search in the files modified
+
+git log --since="1 days ago"
+
+git log --since="23 hour ago"
+
+git log -S blue
+
+git log -S pictures
+
+__In your terminal type:__
+
+```bash
+
+git log --since="23 hour ago"
+
+git log -S blue
+
+git log -S pictures
+
+```
+
+![Alt text](pics/004_git_since_23hourago.png?raw=true "git log --since=23 hour ago")
+
+![Alt text](pics/005_git_log_S.png?raw=true "git log -S")
+
+Next Lab
+
+[Git tag](../lab12/lab12.md)
