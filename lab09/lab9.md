@@ -153,4 +153,4 @@ git log --oneline
 
 Next Lab
 
-[Git diff and log](../lab10/lab10.md)
+[Git diff](../lab10/lab10.md)
