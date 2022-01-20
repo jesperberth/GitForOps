@@ -22,8 +22,46 @@
 
 Install git, Visual Studio Code and Windows Terminal on you local computer
 
-### Lab 2: [Create a local repository](lab02/lab2.md)
+### Lab 2: [Git Init](lab02/lab2.md)
 
 Create a local repository with "git init"
 
-### Lab 3: [Create a local repository](lab03/lab3.md)
+### Lab 3: [Git Config](lab03/lab3.md)
+
+Configuration of your git environment
+
+### Lab 4: [Git add status rm](lab04/lab4.md)
+
+Use Git add status and rm
+
+### Lab 5: [Git commit](lab05/lab5.md)
+
+Use Git commit
+
+### Lab 6: [Git ignore](lab06/lab6.md)
+
+Use Git ignore
+
+### Lab 7: [Git Branches](lab07/lab7.md)
+
+Use Git branches
+
+### Lab 8: [Git Branches merge conflict](lab08/lab8.md)
+
+Git branches merge conflict
+
+### Lab 9: [Git Revert](lab09/lab9.md)
+
+Git revert
+
+### Lab 10: [Git Diff](lab10/lab10.md)
+
+Git Diff
+
+### Lab 11: [Git Log](lab11/lab11.md)
+
+Git Log
+
+### Lab 12: [Git Tag](lab12/lab12.md)
+
+Git tag

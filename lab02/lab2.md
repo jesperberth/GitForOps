@@ -1,4 +1,4 @@
-# Lab 2 Create a local repository
+# Lab 2 Git Init
 
 In this lab we will create a local git ripository and take a look inside
 

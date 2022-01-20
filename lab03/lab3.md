@@ -1,4 +1,4 @@
-# Lab 4 Git config
+# Lab 3 Git config
 
 In this lab we will configure our local git settings
 
