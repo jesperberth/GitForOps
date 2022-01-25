@@ -85,7 +85,7 @@ __In your terminal type:__
 
 ```bash
 
-git merge abort
+git merge --abort
 
 ```
 

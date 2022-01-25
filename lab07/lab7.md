@@ -102,6 +102,8 @@ __In your terminal type:__
 
 ```bash
 
+git add pics
+
 git commit -a -m "added picture"
 
 git status
