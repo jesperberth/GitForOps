@@ -22,6 +22,8 @@ Commands to use in vi
 
 i = enable input
 
+Type you commit message here
+
 esc + : to enter commands
 
 wq to write and quit
@@ -41,6 +43,8 @@ git status
 git commit
 
 - press i to input comment
+
+- Type your commit message here
 
 - press esc key
 
