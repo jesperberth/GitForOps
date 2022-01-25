@@ -136,6 +136,8 @@ cd newproject
 
 git config user.email "AnotherEmail@domain.com"
 
+git config --list --show-origin
+
 ```
 
 ![Alt text](pics/006_local_config.png?raw=true "Git local config file")
