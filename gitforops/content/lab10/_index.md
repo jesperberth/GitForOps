@@ -1,4 +1,6 @@
-# Lab 10 Git Diff
+---
+title: "Lab 10 Git Diff"
+---
 
 In this lab we will learn how Git Diff
 
@@ -30,7 +32,7 @@ git diff
 
 ```
 
-![Alt text](pics/001_git_diff.png?raw=true "git diff")
+![Alt text](images/001_git_diff.png?raw=true "git diff")
 
 Make a change and lets see again
 
@@ -44,7 +46,7 @@ git diff
 
 ```
 
-![Alt text](pics/002_git_diff.png?raw=true "git diff")
+![Alt text](images/002_git_diff.png?raw=true "git diff")
 
 ## Task 2 Git Diff commit commit
 
@@ -64,10 +66,6 @@ git diff 9edb95f 69a4908
 
 ```
 
-![Alt text](pics/003_git_log.png?raw=true "git log")
+![Alt text](images/003_git_log.png?raw=true "git log")
 
-![Alt text](pics/004_git_diff_commit_commit.png?raw=true "git diff commit commit")
-
-Next Lab
-
-[Git log](../lab11/lab11.md)
+![Alt text](images/004_git_diff_commit_commit.png?raw=true "git diff commit commit")

@@ -1,4 +1,6 @@
-# Lab 8 Git Branches merge conflict
+---
+title: "Lab 8 Git Branches merge conflict"
+---
 
 In this lab we will learn how a merge conlict happens and how to fix it
 
@@ -43,7 +45,7 @@ git commit -m "Add blue"
 
 ```
 
-![Alt text](pics/001_create_branches.png?raw=true "Create branches")
+![Alt text](images/001_create_branches.png?raw=true "Create branches")
 
 Lets do some changes in our green branch
 
@@ -61,7 +63,7 @@ git commit -m "Add green"
 
 ```
 
-![Alt text](pics/002_change_green_branch.png?raw=true "Create branches")
+![Alt text](images/002_change_green_branch.png?raw=true "Create branches")
 
 ## Task 2 Merge Conflict abort
 
@@ -77,7 +79,7 @@ git merge green
 
 ```
 
-![Alt text](pics/003_merge_conflict_abort.png?raw=true "Merge conflict abort")
+![Alt text](images/003_merge_conflict_abort.png?raw=true "Merge conflict abort")
 
 Now we can either fix the conflict with git or do an abort and solve the issue by our self
 
@@ -89,7 +91,7 @@ git merge --abort
 
 ```
 
-![Alt text](pics/004_merge_conflict_abort.png?raw=true "Merge conflict abort")
+![Alt text](images/004_merge_conflict_abort.png?raw=true "Merge conflict abort")
 
 ## Task 3 Merge Conflict
 
@@ -105,7 +107,7 @@ git merge green
 
 ```
 
-![Alt text](pics/005_merge_conflict.png?raw=true "Merge conflict")
+![Alt text](images/005_merge_conflict.png?raw=true "Merge conflict")
 
 Lets fix the issue in notepad
 
@@ -129,7 +131,7 @@ notepad.exe color.txt
 
 ```
 
-![Alt text](pics/006_merge_conflict_notepad.png?raw=true "Merge conflict in notepad")
+![Alt text](images/006_merge_conflict_notepad.png?raw=true "Merge conflict in notepad")
 
 ```bash
 
@@ -139,7 +141,7 @@ blue and green
 
 ```
 
-![Alt text](pics/007_merge_conflict_notepad_fixed.png?raw=true "Merge conflict in notepad fixed")
+![Alt text](images/007_merge_conflict_notepad_fixed.png?raw=true "Merge conflict in notepad fixed")
 
 Save the file and exit notepad.exe
 
@@ -175,8 +177,4 @@ git branch -d blue
 
 ```
 
-![Alt text](pics/009_merge_conflict_finish2.png?raw=true "Merge conflict finish")
-
-Next Lab
-
-[Git revert](../lab09/lab9.md)
+![Alt text](images/009_merge_conflict_finish2.png?raw=true "Merge conflict finish")

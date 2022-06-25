@@ -1,0 +1,7 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Git for Ops'
+theme = '\hugo-theme-learn\'
+themeVariant = "blue"
+[outputs]
+home = [ "HTML", "RSS", "JSON"]

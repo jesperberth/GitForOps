@@ -1,4 +1,6 @@
-# Lab 9 Git Revert
+---
+title: "Lab 9 Git Revert"
+---
 
 In this lab we will learn how to revert a previous commit
 
@@ -43,7 +45,7 @@ git commit -m "New Author file"
 
 ```
 
-![Alt text](pics/001_create_files.png?raw=true "Create files")
+![Alt text](images/001_create_files.png?raw=true "Create files")
 
 ## Task 2 Git revert previous commit
 
@@ -55,7 +57,7 @@ git revert HEAD
 
 ```
 
-![Alt text](pics/002_git_revert.png?raw=true "git revert")
+![Alt text](images/002_git_revert.png?raw=true "git revert")
 
 This will open the default editor (vi) so you can type the Commit massage, you can add a reason to the end of the line
 
@@ -69,7 +71,7 @@ Hit Esc-key
 
 ```
 
-![Alt text](pics/003_git_revert_commit_message.png?raw=true "git revert commit message")
+![Alt text](images/003_git_revert_commit_message.png?raw=true "git revert commit message")
 
 Now lets see what happend
 
@@ -85,7 +87,7 @@ git log
 
 ```
 
-![Alt text](pics/004_git_revert_log.png?raw=true "git revert")
+![Alt text](images/004_git_revert_log.png?raw=true "git revert")
 
 ## Task 3 Git revert other commit
 
@@ -99,7 +101,7 @@ git log --oneline
 
 ```
 
-![Alt text](pics/005_git_log.png?raw=true "git log")
+![Alt text](images/005_git_log.png?raw=true "git log")
 
 We use ~ to specify how many commits back we want to revert
 
@@ -111,7 +113,7 @@ git revert HEAD~2
 
 ```
 
-![Alt text](pics/006_git_revert_HEAD_2.png?raw=true "git revert HEAD-2")
+![Alt text](images/006_git_revert_HEAD_2.png?raw=true "git revert HEAD-2")
 
 __In vi type:__
 
@@ -133,7 +135,7 @@ Hit Esc-key
 
 ```
 
-![Alt text](pics/007_git_revert_HEAD_2_comment.png?raw=true "git revert HEAD-2 Comment")
+![Alt text](images/007_git_revert_HEAD_2_comment.png?raw=true "git revert HEAD-2 Comment")
 
 Lets see what changed
 
@@ -149,8 +151,4 @@ git log --oneline
 
 ```
 
-![Alt text](pics/008_git_revert_log.png?raw=true "git revert result")
-
-Next Lab
-
-[Git diff](../lab10/lab10.md)
+![Alt text](images/008_git_revert_log.png?raw=true "git revert result")

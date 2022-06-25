@@ -1,4 +1,6 @@
-# Lab 4 Git add status rm
+---
+title: "Lab 4 Git add status rm"
+---
 
 In this lab we will learn how to add files monitor our status and remove files
 
@@ -45,7 +47,7 @@ git status
 
 ```
 
-![Alt text](pics/001_add_file.png?raw=true "Git add")
+![Alt text](images/001_add_file.png?raw=true "Git add")
 
 Lets add a directory for out html pages
 
@@ -67,7 +69,7 @@ git status
 
 ```
 
-![Alt text](pics/002_add_dir.png?raw=true "Git add dir")
+![Alt text](images/002_add_dir.png?raw=true "Git add dir")
 
 Note that git dosn't monitor empty directories
 
@@ -93,7 +95,7 @@ git status
 
 ```
 
-![Alt text](pics/003_add_index.png?raw=true "Git add index")
+![Alt text](images/003_add_index.png?raw=true "Git add index")
 
 ## Task 2 Git rm
 
@@ -119,7 +121,7 @@ git rm html/todo
 
 ```
 
-![Alt text](pics/004_git_rm.png?raw=true "Git rm")
+![Alt text](images/004_git_rm.png?raw=true "Git rm")
 
 So the file cannot be removed as it hasn't been commited to the repository, and there for there is no way to undo it
 
@@ -133,7 +135,7 @@ git status
 
 ```
 
-![Alt text](pics/005_git_rm_f.png?raw=true "Git rm f")
+![Alt text](images/005_git_rm_f.png?raw=true "Git rm f")
 
 ## Task 3 Git status
 
@@ -155,7 +157,7 @@ git status
 
 ```
 
-![Alt text](pics/006_status_untracked.png?raw=true "Git status untracked")
+![Alt text](images/006_status_untracked.png?raw=true "Git status untracked")
 
 CHANGELOG isn't tracked as we haven't added it to the staging area
 
@@ -185,7 +187,7 @@ git status
 
 ```
 
-![Alt text](pics/007_status_s.png?raw=true "Git status s")
+![Alt text](images/007_status_s.png?raw=true "Git status s")
 
 Lets add some text to the CHANGELOG
 
@@ -209,7 +211,7 @@ git status -s
 
 If we do a commit now, the text "Version 1" won't be commited as the change hasn't been staged
 
-![Alt text](pics/008_status.png?raw=true "Git status")
+![Alt text](images/008_status.png?raw=true "Git status")
 
 __In your terminal type:__
 
@@ -223,8 +225,4 @@ git status
 
 ```
 
-![Alt text](pics/009_status_add.png?raw=true "Git status after add")
-
-Next Lab
-
-[Git commit](../lab05/lab5.md)
+![Alt text](images/009_status_add.png?raw=true "Git status after add")

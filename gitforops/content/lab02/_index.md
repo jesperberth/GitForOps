@@ -1,4 +1,6 @@
-# Lab 2 Git Init
+---
+title: "Lab 2 Git Init"
+---
 
 In this lab we will create a local git ripository and take a look inside
 
@@ -16,7 +18,7 @@ Git and windows Terminal must be installed
 
 Open Windows Terminal, you should be in your home directory
 
-![Alt text](pics/001_windows_terminal.png?raw=true "Windows Terminal")
+![Alt text](images/001_windows_terminal.png?raw=true "Windows Terminal")
 
 create a new directory __gitops__ we will use this as our root directory for the rest of the course
 
@@ -28,7 +30,7 @@ cd gitops
 
 ```
 
-![Alt text](pics/002_gitops_dir.png?raw=true "Gitops dir")
+![Alt text](images/002_gitops_dir.png?raw=true "Gitops dir")
 
 We can create a new git repository with __git init project name__ or __git init__
 
@@ -46,7 +48,7 @@ ls -force
 
 ```
 
-![Alt text](pics/003_gitinit.png?raw=true "Git init")
+![Alt text](images/003_gitinit.png?raw=true "Git init")
 
 Create a new folder and run __git init__ make sure you are back in the gitops folder
 
@@ -64,7 +66,7 @@ git init
 
 ```
 
-![Alt text](pics/004_gitinit2.png?raw=true "Git init")
+![Alt text](images/004_gitinit2.png?raw=true "Git init")
 
 ## Task 2 Take a look in the git folder
 
@@ -84,7 +86,7 @@ ls
 
 ```
 
-![Alt text](pics/005_gitfolder.png?raw=true "Git folder ls")
+![Alt text](images/005_gitfolder.png?raw=true "Git folder ls")
 
 From the top down
 
@@ -97,7 +99,3 @@ From the top down
 - file "HEAD" current ref you are working at now, this is just a pointer to refs/heads/main
 
 As we start to work with git additional files and folders will appear, we will look back later
-
-Next Lab
-
-[Git config](../lab03/lab3.md)

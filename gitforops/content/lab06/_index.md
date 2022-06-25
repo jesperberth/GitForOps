@@ -1,4 +1,6 @@
-# Lab 6 Git ignore
+---
+title: "Lab 6 Git ignore"
+---
 
 In this lab we will learn how to exclude files and folders using .gitignore
 
@@ -40,7 +42,7 @@ git status
 
 ```
 
-![Alt text](pics/001_git_ignore.png?raw=true "Git ignore")
+![Alt text](images/001_git_ignore.png?raw=true "Git ignore")
 
 Next lets exclude the folder "data" we add the line data/* to the .gitignore file
 
@@ -56,7 +58,7 @@ cat .gitignore
 
 ```
 
-![Alt text](pics/002_git_ignore.png?raw=true "Git ignore")
+![Alt text](images/002_git_ignore.png?raw=true "Git ignore")
 
 Lets test that git ignores changes in our data directory
 
@@ -74,7 +76,7 @@ git status
 
 ```
 
-![Alt text](pics/003_git_ignore.png?raw=true "Git ignore")
+![Alt text](images/003_git_ignore.png?raw=true "Git ignore")
 
 We can ask if a file or directory is ignored by git, if there is an output the file is ignored, -v will tell us where the ignore comes from
 
@@ -88,8 +90,4 @@ git check-ignore data/* -v
 
 ```
 
-![Alt text](pics/004_git_ignore.png?raw=true "Git ignore")
-
-Next Lab
-
-[Git branches](../lab07/lab7.md)
+![Alt text](images/004_git_ignore.png?raw=true "Git ignore")

@@ -1,4 +1,6 @@
-# Lab 1 Install Software
+---
+title: "Lab 1 Install Software"
+---
 
 In this lab we will install git, Windows terminal and Visual Studio Code on your local computer
 
@@ -109,7 +111,3 @@ choco install microsoft-windows-terminal
 ### Using Microsoft Store to install Windows Terminal
 
 Search for __Windows Terminal__ click install
-
-Next Lab
-
-[Git init](../lab02/lab2.md)

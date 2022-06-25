@@ -1,4 +1,6 @@
-# Lab 3 Git config
+---
+title: "Lab 3 Git Config"
+---
 
 In this lab we will configure our local git settings
 
@@ -50,7 +52,7 @@ git config --list
 
 ```
 
-![Alt text](pics/001_gitconfig.png?raw=true "Git config")
+![Alt text](images/001_gitconfig.png?raw=true "Git config")
 
 In my example init.defaultbranch is sat twice so to see which on is going to win we can add an option to the command
 
@@ -62,7 +64,7 @@ git config --list --show-origin
 
 ```
 
-![Alt text](pics/002_gitconfig_origin.png?raw=true "Git config show origin")
+![Alt text](images/002_gitconfig_origin.png?raw=true "Git config show origin")
 
 Now we can see where an option is configured and which one will take precedence
 
@@ -84,7 +86,7 @@ git config --list --show-origin
 
 ```
 
-![Alt text](pics/003_gitconfig_user.png?raw=true "Git config user")
+![Alt text](images/003_gitconfig_user.png?raw=true "Git config user")
 
 Lets set two global settings
 
@@ -104,7 +106,7 @@ git config --list --show-origin
 
 ```
 
-![Alt text](pics/004_gitconfig_color.png?raw=true "Git config color branch")
+![Alt text](images/004_gitconfig_color.png?raw=true "Git config color branch")
 
 Lets take a look at the our global config file
 
@@ -118,7 +120,7 @@ cat .gitconfig
 
 ```
 
-![Alt text](pics/005_global_config.png?raw=true "Git global config file")
+![Alt text](images/005_global_config.png?raw=true "Git global config file")
 
 ## Task 3 Git config local settings
 
@@ -140,8 +142,4 @@ git config --list --show-origin
 
 ```
 
-![Alt text](pics/006_local_config.png?raw=true "Git local config file")
-
-Next Lab
-
-[Git add status rm](../lab04/lab4.md)
+![Alt text](images/006_local_config.png?raw=true "Git local config file")

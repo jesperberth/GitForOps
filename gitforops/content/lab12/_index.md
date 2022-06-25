@@ -1,4 +1,6 @@
-# Lab 12 Git Tag
+---
+title: "Lab 12 Git Tag"
+---
 
 In this lab we will learn how Git Tag works
 
@@ -30,7 +32,7 @@ git tag
 
 ```
 
-![Alt text](pics/001_git_tag.png?raw=true "git tag -a")
+![Alt text](images/001_git_tag.png?raw=true "git tag -a")
 
 We should have a tag "v1.0" on our HEAD
 
@@ -42,7 +44,7 @@ git log
 
 ```
 
-![Alt text](pics/002_git_log.png?raw=true "git log")
+![Alt text](images/002_git_log.png?raw=true "git log")
 
 Check with git status that you have an uncommitted change
 
@@ -60,7 +62,7 @@ git status
 
 ```
 
-![Alt text](pics/003_git_status.png?raw=true "git status")
+![Alt text](images/003_git_status.png?raw=true "git status")
 
 Our v1.0 tag stays the commit it was added to
 
@@ -80,7 +82,7 @@ git log
 
 ```
 
-![Alt text](pics/004_git_tag_light.png?raw=true "git tag lightweight")
+![Alt text](images/004_git_tag_light.png?raw=true "git tag lightweight")
 
 Lets delete the update tag
 
@@ -98,8 +100,4 @@ git log
 
 ```
 
-![Alt text](pics/005_git_tag_delete.png?raw=true "git tag delete")
-
-Next Lab
-
-[Git clone](../lab13/lab13.md)
+![Alt text](images/005_git_tag_delete.png?raw=true "git tag delete")

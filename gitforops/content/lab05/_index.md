@@ -1,4 +1,6 @@
-# Lab 5 Git commit
+---
+title: "Lab 5 Git Commit"
+---
 
 In this lab we will learn how to add files monitor our status and remove files
 
@@ -58,11 +60,11 @@ git status
 
 ```
 
-![Alt text](pics/001_git_commit.png?raw=true "Git commit")
+![Alt text](images/001_git_commit.png?raw=true "Git commit")
 
-![Alt text](pics/002_vi.png?raw=true "vi comment")
+![Alt text](images/002_vi.png?raw=true "vi comment")
 
-![Alt text](pics/003_git_commit_done.png?raw=true "Git commit done")
+![Alt text](images/003_git_commit_done.png?raw=true "Git commit done")
 
 Now lets see what has changed
 
@@ -86,7 +88,7 @@ cat .git/COMMIT_EDITMSG
 
 ```
 
-![Alt text](pics/004_git_editmsg.png?raw=true "Git commit message")
+![Alt text](images/004_git_editmsg.png?raw=true "Git commit message")
 
 Take a look with git log
 
@@ -104,7 +106,7 @@ git log
 
 ```
 
-![Alt text](pics/005_git_log.png?raw=true "Git log")
+![Alt text](images/005_git_log.png?raw=true "Git log")
 
 Git log will give us the date and time for the commit aswell as who did it and it will show us the SHA-1 value of the commit
 
@@ -118,7 +120,7 @@ ls .\.git\objects\fe\
 
 ```
 
-![Alt text](pics/006_git_object.png?raw=true "Git object")
+![Alt text](images/006_git_object.png?raw=true "Git object")
 
 The file "1d835b3e9020d29717468ff3b3a0970b15655c" is a hashed compressed binary file of all our commited files
 
@@ -152,7 +154,7 @@ git log
 
 ```
 
-![Alt text](pics/007_git_commit.png?raw=true "Git commit")
+![Alt text](images/007_git_commit.png?raw=true "Git commit")
 
 We can untrack the file with git rm --cached ISSUES.md, the file will stay on the disk but will no longer be monitored by git
 
@@ -168,7 +170,7 @@ git commit -m "Removed ISSUES.md"
 
 ```
 
-![Alt text](pics/008_git_rm.png?raw=true "Git rm")
+![Alt text](images/008_git_rm.png?raw=true "Git rm")
 
 Lets add back the ISSUES.md file and add some text
 
@@ -192,7 +194,7 @@ git status
 
 ```
 
-![Alt text](pics/009_git_commit_a.png?raw=true "Git commit a")
+![Alt text](images/009_git_commit_a.png?raw=true "Git commit a")
 
 Do a final git log to see all our commits
 
@@ -204,8 +206,4 @@ git log
 
 ```
 
-![Alt text](pics/010_git_log.png?raw=true "Git log")
-
-Next Lab
-
-[Git ignore](../lab06/lab6.md)
+![Alt text](images/010_git_log.png?raw=true "Git log")
