@@ -1,5 +1,8 @@
 ---
-title: "Lab 2 Git Init"
+title: "Git Init"
+weight: 10
+chapter: false
+pre: "<b>Lab 2. </b>"
 ---
 
 In this lab we will create a local git ripository and take a look inside

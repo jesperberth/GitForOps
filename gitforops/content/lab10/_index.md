@@ -1,5 +1,8 @@
 ---
-title: "Lab 10 Git Diff"
+title: "Git Diff"
+weight: 100
+pre: "<b>Lab 10. </b>"
+chapter: false
 ---
 
 In this lab we will learn how Git Diff

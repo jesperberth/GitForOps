@@ -1,5 +1,8 @@
 ---
-title: "Lab 9 Git Revert"
+title: "Git Revert"
+weight: 90
+pre: "<b>Lab 9. </b>"
+chapter: false
 ---
 
 In this lab we will learn how to revert a previous commit

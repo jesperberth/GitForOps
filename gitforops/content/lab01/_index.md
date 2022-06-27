@@ -1,5 +1,8 @@
 ---
-title: "Lab 1 Install Software"
+title: "Install Software"
+weight: 5
+pre: "<b>Lab 1. </b>"
+chapter: false
 ---
 
 In this lab we will install git, Windows terminal and Visual Studio Code on your local computer

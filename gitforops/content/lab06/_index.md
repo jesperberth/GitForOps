@@ -1,5 +1,8 @@
 ---
-title: "Lab 6 Git ignore"
+title: "Git ignore"
+weight: 60
+pre: "<b>Lab 6. </b>"
+chapter: false
 ---
 
 In this lab we will learn how to exclude files and folders using .gitignore

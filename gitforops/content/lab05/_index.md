@@ -1,5 +1,8 @@
 ---
-title: "Lab 5 Git Commit"
+title: "Git Commit"
+weight: 50
+pre: "<b>Lab 5. </b>"
+chapter: false
 ---
 
 In this lab we will learn how to add files monitor our status and remove files

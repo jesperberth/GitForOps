@@ -1,5 +1,8 @@
 ---
-title: "Lab 11 Git Log"
+title: "Git Log"
+weight: 110
+pre: "<b>Lab 11. </b>"
+chapter: false
 ---
 
 In this lab we will learn how Git Log works

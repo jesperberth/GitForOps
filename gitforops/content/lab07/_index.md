@@ -1,5 +1,8 @@
 ---
-title: "Lab 7 Git Branches"
+title: "Git Branches"
+weight: 70
+pre: "<b>Lab 7. </b>"
+chapter: false
 ---
 
 In this lab we will learn how to create branches and merge two branches together

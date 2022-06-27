@@ -1,5 +1,8 @@
 ---
-title: "Lab 12 Git Tag"
+title: "Git Tag"
+weight: 120
+pre: "<b>Lab 12. </b>"
+chapter: false
 ---
 
 In this lab we will learn how Git Tag works

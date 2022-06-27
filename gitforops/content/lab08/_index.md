@@ -1,5 +1,8 @@
 ---
-title: "Lab 8 Git Branches merge conflict"
+title: "Git Branches merge conflict"
+weight: 80
+pre: "<b>Lab 8. </b>"
+chapter: false
 ---
 
 In this lab we will learn how a merge conlict happens and how to fix it

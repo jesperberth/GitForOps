@@ -20,7 +20,7 @@ title: "Git for Ops"
 
 ## Labs
 
-### Lab 1: [Install Software](lab01/lab1.md)
+### Lab 1: [Install Software]({{%relref "lab01/_index.md" %}})
 
 Install git, Visual Studio Code and Windows Terminal on you local computer
 

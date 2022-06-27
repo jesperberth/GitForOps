@@ -1,5 +1,8 @@
 ---
-title: "Lab 3 Git Config"
+title: "Git Config"
+weight: 30
+pre: "<b>Lab 3. </b>"
+chapter: false
 ---
 
 In this lab we will configure our local git settings

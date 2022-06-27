@@ -1,5 +1,8 @@
 ---
-title: "Lab 4 Git add status rm"
+title: "Git add status rm"
+weight: 40
+pre: "<b>Lab 4. </b>"
+chapter: false
 ---
 
 In this lab we will learn how to add files monitor our status and remove files
