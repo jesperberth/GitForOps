@@ -17,4 +17,4 @@ jobs:
         hugo-version: 'latest'
 
     - name: Build website
-      run: hugo --minify
+      run: hugo --minify -s website
