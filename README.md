@@ -1,8 +1,20 @@
 # Git for Ops Class
 
-Build with Hugo
+Class material for Git for Ops class
 
-## Docker image
+Part of the GitOps training path
+
+Site is build with Hugo - static website builder
+
+## Build website with Hugo
+
+```bash
+
+hugo -D
+
+```
+
+## Build Docker image
 
 ```bash
 
