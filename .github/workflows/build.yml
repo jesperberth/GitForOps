@@ -4,5 +4,9 @@ on:
     branches:
       - main
 jobs:
-  build-website:
+  build:
     runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      name: Checkout Repository
