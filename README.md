@@ -1,67 +1,25 @@
-# Git for Ops
+# Git for Ops Class
 
-## Learn git source control
+Class material for Git for Ops class
 
-### Prerequsits
+Part of the GitOps training path
 
-#### Environment
+Site is build with Hugo - static website builder
 
-#### Software on your client
+## Build website with Hugo
 
-* VSCode (or other IDE) [Download vscode](https://code.visualstudio.com/download)
-* Git [Download Git](https://git-scm.com/downloads)
-* ssh client
-* RDP client
-* Webbrowser
-* Optional: Powershell Core 7 [Download Powershell Core](https://github.com/PowerShell/PowerShell)
-* Optional: Windows Terminal (Install from Windows Store)
+```bash
 
-## Labs
+hugo -D
 
-### Lab 1: [Install Software](lab01/lab1.md)
+```
 
-Install git, Visual Studio Code and Windows Terminal on you local computer
+## Build Docker image
 
-### Lab 2: [Git Init](lab02/lab2.md)
+```bash
 
-Create a local repository with "git init"
+docker build -t website:latest .
 
-### Lab 3: [Git Config](lab03/lab3.md)
+docker run -d -p 80:80 website
 
-Configuration of your git environment
-
-### Lab 4: [Git add status rm](lab04/lab4.md)
-
-Use Git add status and rm
-
-### Lab 5: [Git commit](lab05/lab5.md)
-
-Use Git commit
-
-### Lab 6: [Git ignore](lab06/lab6.md)
-
-Use Git ignore
-
-### Lab 7: [Git Branches](lab07/lab7.md)
-
-Use Git branches
-
-### Lab 8: [Git Branches merge conflict](lab08/lab8.md)
-
-Git branches merge conflict
-
-### Lab 9: [Git Revert](lab09/lab9.md)
-
-Git revert
-
-### Lab 10: [Git Diff](lab10/lab10.md)
-
-Git Diff
-
-### Lab 11: [Git Log](lab11/lab11.md)
-
-Git Log
-
-### Lab 12: [Git Tag](lab12/lab12.md)
-
-Git tag
+```
