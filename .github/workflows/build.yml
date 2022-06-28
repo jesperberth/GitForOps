@@ -1,0 +1,8 @@
+name: build
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-website:
+    runs-on: ubuntu-latest
